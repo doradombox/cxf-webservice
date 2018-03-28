@@ -5,8 +5,6 @@ import java.lang.reflect.Method;
 import org.apache.cxf.endpoint.Client;
 import org.apache.cxf.jaxws.endpoint.dynamic.JaxWsDynamicClientFactory;
 
-import com.fasterxml.jackson.databind.introspect.ClassIntrospector;
-
 import priv.scor.example.cxf_webservice.service.User;
 
 /**
@@ -22,7 +20,7 @@ public class Test
     
     public static void c2() {
         JaxWsDynamicClientFactory dcf = JaxWsDynamicClientFactory.newInstance();
-        Client client = dcf.createClient("http://localhost:8080/soap/user?wsdl");
+        Client client = dcf.createClient("http://47.95.3.38:8080/soap/user?wsdl");
         Object[] objects = null;
         try {
             objects = client.invoke("getUser", 10002L);

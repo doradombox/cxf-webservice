@@ -1,0 +1,6 @@
+priv/scor/example/cxf_webservice/service/IUserService.class
+priv/scor/example/cxf_webservice/config/CxfConfig.class
+priv/scor/example/cxf_webservice/service/User.class
+priv/scor/example/cxf_webservice/client/Test.class
+priv/scor/example/cxf_webservice/App.class
+priv/scor/example/cxf_webservice/service/UserServiceImp.class
